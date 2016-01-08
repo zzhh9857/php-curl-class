@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ZzhhCurl\\": "src/Curl/"
+            "ZzhhCurl\\": "src/ZzhhCurl/"
         }
     }
 }
