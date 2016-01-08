@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 define('API_KEY', 'XXXXXXXXXXXXXXXXXXXXXXXXX');
 define('API_SECRET', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');

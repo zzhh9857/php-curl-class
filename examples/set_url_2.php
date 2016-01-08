@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 // Retrieve first N pages of search results.
 $pages = 10;

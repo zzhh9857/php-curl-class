@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 define('GRATIPAY_USERNAME', 'XXXXXXXXXX');
 define('GRATIPAY_API_KEY', 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX');

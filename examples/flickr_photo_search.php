@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 function construct_url($photo, $size = 's', $ext = 'jpg')
 {

@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 $curl = new Curl();
 $curl->progress(function($client, $download_size, $downloaded, $upload_size, $uploaded) {

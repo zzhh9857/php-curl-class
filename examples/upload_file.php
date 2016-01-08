@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 $myfile = curl_file_create('cats.jpg', 'image/png', 'test_name');
 

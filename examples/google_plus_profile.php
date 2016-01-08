@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 define('CLIENT_ID', 'XXXXXXXXXXXX.apps.googleusercontent.com');
 define('CLIENT_SECRET', 'XXXXXXXXXXXXXXXXXXXXXXXX');

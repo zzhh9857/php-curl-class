@@ -2,8 +2,8 @@
 require '../src/Curl/Curl.php';
 require '../src/Curl/MultiCurl.php';
 
-use \Curl\Curl;
-use \Curl\MultiCurl;
+use \ZzhhCurl\Curl;
+use \ZzhhCurl\MultiCurl;
 
 $multi_curl = new MultiCurl();
 $multi_curl->addDownload('https://php.net/images/logos/php-med-trans.png', '/tmp/php-med-trans.png');

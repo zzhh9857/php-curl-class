@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 define('INSTAGRAM_CLIENT_ID', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
 

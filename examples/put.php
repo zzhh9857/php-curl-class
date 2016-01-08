@@ -1,7 +1,7 @@
 <?php
 require '../src/Curl/Curl.php';
 
-use \Curl\Curl;
+use \ZzhhCurl\Curl;
 
 // curl -X PUT -d "id=1&first_name=Zach&last_name=Borboa" "https://httpbin.org/put"
 $curl = new Curl();

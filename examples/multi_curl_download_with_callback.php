@@ -2,8 +2,8 @@
 require '../src/Curl/Curl.php';
 require '../src/Curl/MultiCurl.php';
 
-use \Curl\Curl;
-use \Curl\MultiCurl;
+use \ZzhhCurl\Curl;
+use \ZzhhCurl\MultiCurl;
 
 $callback = function($instance, $tmpfile) {
     $save_to_path = '/tmp/' . basename($instance->url);
